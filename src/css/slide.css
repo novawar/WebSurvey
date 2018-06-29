@@ -1,0 +1,70 @@
+.caption_slide {
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    right: 10%;
+    text-align: right;
+}
+
+.caption_slide h1 {
+    color: white;
+    font-family: 'Century_Italic';
+    font-style: italic;
+}
+
+.caption_slide h2 {
+    color: white;
+    font-family: 'Century_Regular';
+    font-size: 1.6em;
+}
+
+.caption_topic  {
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    right: 10%;
+    text-align: right;
+}
+
+.caption_topic h1 {
+    color: white;
+    font-family: 'Century_Italic';
+    font-style: italic;
+	font-size: 5em;
+}
+
+.caption_home  {
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    right: 10%;
+    text-align: right;
+}
+
+.caption_home h1 {
+    color: white;
+    font-family: 'Century_Italic';
+    font-style: italic;
+	font-size: 7em;
+}
+
+.caption_home h2 {
+    color: white;
+    font-family: 'Century_Italic';
+    font-style: italic;
+	font-size: 1em;
+}
+
+
+
+
+
+
+.slide_design .carousel-indicators {
+    top: 280px;
+    bottom: auto;
+    right: 10%;
+    left: auto;
+    width: 100%;
+    text-align: right;
+}

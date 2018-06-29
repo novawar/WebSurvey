@@ -1,0 +1,45 @@
+.navbar_design {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+	
+}
+
+.navbar-header_design .navbar-brand {
+    height: auto;
+}
+
+.navbar-header_design .navbar-brand img {
+    width: 100%;
+}
+
+.nav_design li {
+    float: none;
+    display: inline-block;
+    padding: 5% 35px 0;
+}
+
+.nav_design li:hover {
+    background: none;
+}
+
+.nav_design li a:hover {
+    background: none;
+}
+
+.nav_design li a {
+    color: #a2bc3e;
+    font-size: 1.2em;
+    font-family: 'Century_Regular';
+}
+
+.nav_design li.active a {
+    color: #0d4a66;
+}
+
+.nav_design .open>a,
+.nav_design .open>a:focus,
+.nav_design .open>a:hover {
+    background-color: transparent;
+    border: none;
+}

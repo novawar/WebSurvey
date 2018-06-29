@@ -1,0 +1,446 @@
+/******************************** global css ********************************/
+
+.line {
+    margin: 0 auto;
+    width: 100px;
+    border-bottom: 4px solid #a2bc3e;
+}
+
+
+
+/******************************** product section start ********************************/
+
+.product-showcase {
+    margin: 1em 0;
+}
+
+.product-showcase .product-showcase_header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.product-showcase .product-showcase_header h1 {
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+}
+
+.product-showcase .product-showcase_header p {
+    color: #b5bbba;
+    font-family: 'Century_Regular';
+}
+
+.owl-carousel_design .row,
+.owl-carousel_design .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.owl-carousel_design .owl-pagination {
+    display: none;
+}
+
+#owl-demo .owl-buttons div {
+    color: #0d4a66;
+    border: none;
+    position: absolute;
+    text-shadow: 1px 1px 8px rgba(150, 150, 150, 1);
+}
+
+#owl-demo .owl-prev {
+    left: -5%;
+    top: 400px;
+}
+
+#owl-demo .owl-next {
+    right: -5%;
+    top: 400px;
+}
+
+.product-showcase .product-description {
+    background: #a2bc3e;
+    padding: 2em;
+    text-align: center;
+}
+
+.product-showcase .product-description h1 {
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+.product-showcase .product-description p {
+    color: white;
+    font-family: 'Century_Regular';
+    font-size: 1.2em;
+}
+
+.product-showcase .product-description i {
+    color: white;
+    font-size: 5em;
+}
+
+.product-showcase .product-img {
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.product-showcase .product-img img {
+    max-width: none;
+    transition: 0.3s;
+    will-change: transform;
+    width: 110%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.product-showcase .product-img:hover {
+    transition: 0.3s;
+}
+
+.product-showcase .product-img:hover img {
+    transition: 0.3s;
+    webkit-transform: translateX(8.5%);
+    transform: translateX(8.5%);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+
+/******************************** welcome text section start ********************************/
+
+.welcome-text {
+    margin: 2em 0;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.welcome-text h1 {
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+}
+
+.welcome-text p {
+    color: #b5bbba;
+    font-family: 'Century_Regular';
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+/***********************************  inside web ******************************************/
+.inside-text {  
+    margin: 2em 0;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.inside-text h1 { /** text large topic banner **/
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+}
+
+.inside-text h2 { /** text topic  **/
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 3em;	
+}
+
+.inside-text h3 { /** text small topic link **/
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+	font-size: 1.3em;
+	text-align: left;
+	margin-top: 3em;
+}
+
+
+.inside-text h4 { /* text small topic */
+    color: #000000;
+    font-family: 'Century_Bold';
+    font-weight: 900;
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.inside-text p {
+    color: #666;
+    font-family: 'Century_Regular';
+    font-size: 1.3em;
+    margin-top: 1.5em;
+	text-align: left;
+}
+
+
+
+
+/******************************** picture section start ********************************/
+
+
+/*parallax BG*/
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+/********************************* slide hide and show text ******************************/
+
+
+.flip {
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+.flip-02 {
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-02 {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+.flip-04{
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-04 {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+.flip-05{
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-05 {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+.flip-06{
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-06 {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+.flip-07{
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-07 {
+    padding: 50px;
+    display: none;
+	border: solid 2px #c3c3c3;	
+}
+
+
+
+
+
+
+.flip-03 {   
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    
+}
+
+.panel-03 {  
+    padding: 20px;
+    display: none;
+	color: white;
+    font-family: 'Century_Italic';
+    font-style: italic;
+	font-size: 2em;
+	
+}
+
+
+
+
+.flip-show{
+    padding: 0px;
+    text-align: center;
+    background-color: #c3c3c3;
+    border: solid 2px #c3c3c3;
+}
+
+.panel-show {
+    padding: 50px;   
+	border: solid 2px #c3c3c3;	
+}
+
+
+
+
+/************************************ img responsive *************************************/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/************************************ youtube responsive *************************************/
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/******************************** developer section start ********************************/
+
+.developer {
+    margin: 2em 0;
+}
+
+.developer .developer_header {
+    margin-bottom: 2em;
+}
+
+.developer .developer_header h1 {
+    color: #0d4a66;
+    font-family: 'Century_Bold';
+    text-align: center;
+    font-weight: 900;
+}
+
+.developer .developer_header p {
+    margin-top: 1em;
+    color: #b5bbba;
+    font-family: 'Century_Regular';
+    text-align: center;
+}
+
+#owl-demo02 .thumbnail_test {
+    width: 25%;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#owl-demo02 .thumbnail_test img {
+    width: 100%;
+}
+
+#owl-demo02 .description_developer {
+    margin: 2em 0;
+    padding: 0 15%;
+}
+
+#owl-demo02 .description_developer p {
+    font-family: 'Century_Bold';
+    color: #b5bbba;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+#owl-demo02 .description_developer h1 {
+    font-family: 'Century_Bold';
+    color: #0d4a66;
+    text-align: right;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+#owl-demo02 .owl-pagination .active span {
+    background: #b5bbba;
+}
+
+#owl-demo02 .owl-pagination span {
+    background: transparent;
+    border: 1px solid #b5bbba;
+}
+
+#owl-demo02 .owl-buttons div {
+    color: #b5bbba;
+    border: none;
+    position: absolute;
+    text-shadow: none;
+}
+
+#owl-demo02 .owl-prev {
+    left: -1%;
+    top: 100px;
+    font-size: 2em;
+}
+
+#owl-demo02 .owl-next {
+    right: -1%;
+    top: 100px;
+    font-size: 2em;
+}

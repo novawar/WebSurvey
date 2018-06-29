@@ -1,0 +1,99 @@
+.footer {
+    margin: 2em 0 0;
+    background: #f7f7f7;
+    padding: 2em 0;
+}
+
+.footer .footer_logo {
+    text-align: center;
+}
+
+.footer .footer_logo img {
+    width: 50%;
+}
+
+.footer .footer_logo p {
+    color: #b5bbba;
+    font-family: 'Century_Regular';
+}
+
+.footer .address {
+    margin-top: 3em;
+}
+
+.footer .address .address_header {
+    float: left;
+    width: 35%;
+}
+
+.footer .address .address_header h1 {
+    font-family: 'Century_Bold';
+    color: #b5bbba;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.footer .address .address_content {
+    float: left;
+    width: 65%;
+}
+
+.footer .address .address_content p {
+    font-family: 'TH_san';
+    color: #b5bbba;
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+.footer .social {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.footer .social a {
+    color: #b5bbba;
+    font-size: 1.5em;
+    margin: 0 15px;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.footer .social a:hover {
+    color: #9b9b9b;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.footer .contact {
+    margin: 1em 0;
+}
+.footer .contact .contact_header {
+    float: left;
+    width: 35%;
+    text-align: right;
+}
+
+.footer .contact .contact_header h1 {
+    font-family: 'Century_Bold';
+    color: #b5bbba;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.footer .contact .contact_content {
+    float: left;
+    width: 65%;
+    padding: 0 10px;
+}
+
+.footer .contact .contact_content p {
+    font-family: 'TH_san';
+    color: #b5bbba;
+    font-size: 1.8em;
+    margin-top: -10px;
+
+}

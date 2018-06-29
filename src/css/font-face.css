@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Century_Regular';
+    src: url('Century Gothic.ttf');
+}
+
+@font-face {
+    font-family: 'Century_Italic';
+    src: url('Century Gothic.ttf');
+}
+
+@font-face {
+    font-family: 'Century_Bold';
+    src: url('Century Gothic.ttf');
+}
+
+@font-face {
+    font-family: 'Century_ItalicBold';
+    src: url('Century Gothic.ttf');
+}
+
+@font-face {
+    font-family: 'TH_san';
+    src: url('ThaiSansNeue-Regular.ttf') ;
+}
+
