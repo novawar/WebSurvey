@@ -1,6 +1,6 @@
 # SurveyWeb
 The Survey Website on PHP and MySQL for Database <br>
-See my demo >> [http://social-survey.hol.es](https://social-survey.hol.es)
+See my demo >> [http://social-survey.hol.es](http://social-survey.hol.es)
 
 
 **Todo:**
